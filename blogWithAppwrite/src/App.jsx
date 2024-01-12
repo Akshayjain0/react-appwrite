@@ -1,14 +1,11 @@
-import './App.css'
-import conf from './conf/conf'
+import "./App.css";
 
 function App() {
-  console.log(conf.appwriteProjectId)
-
-  return (
-    <>
-    <h1>Blog with appwrite</h1>      
-    </>
-  )
+	return (
+		<>
+			<h1>Blog with appwrite</h1>
+		</>
+	);
 }
 
-export default App
+export default App;
